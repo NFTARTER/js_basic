@@ -53,6 +53,7 @@ color: transparent;
 * `객체.속성.속성.메서드();`
 * `객체.메서드().속성;`
 * `객체.메서드().메서드();`
+* `객체.메서드(메서드());`
 ## 변수의 자료형 
 Are they both text or number?
 * var_user_id="abc";
@@ -64,3 +65,12 @@ Are they both text or number?
 2. 해당 변수의 데이터타입을 구분하기 위해 typeof 함수확인
     * `console.log(typeof(num));` //Number(숫자)
     * `console.log(typeof(str));` //String(문자)
+
+## 피연산자가 숫자인 경우 -> 산술연산자 
+a + b    더하기)두 개의 피연산자를 더한다. 
+a - b    빼기)왼쪽 피연산자에서 오른쪽 피연산자를 뺀다. 
+a * b    곱하기)두 개의 피연산자를 곱한다.  
+a / b    나누기)왼쪽의 피연산자를 오른쪽 피연산자로 나눈 몫이다. 
+a % b    나머지)왼쪽의 피연산자를 오른쪽 피연산자로 나눈 나머지이다. 
+a ** b   거듭제곱)왼쪽의 피연산자의 오른쪽 피연산자의 값만큼 곱한 값이다. 
+<!-- when the calculation is unavailable -> NaN (Not a Number) -->
